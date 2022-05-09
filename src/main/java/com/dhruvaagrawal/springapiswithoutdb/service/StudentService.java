@@ -15,4 +15,6 @@ public interface StudentService {
     public Student replaceStudent(Long id, Student student);
 
     public void deleteStudent(Long studentId);
+
+    public Student fetchStudentByUsername(String studentUsername);
 }

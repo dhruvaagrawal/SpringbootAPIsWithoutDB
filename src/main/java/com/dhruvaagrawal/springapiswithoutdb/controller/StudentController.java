@@ -24,6 +24,11 @@ public class StudentController {
         return studentService.fetchStudentById(studentId);
     }
 
+    @GetMapping("/name/{username}")
+    public Student fetchStudentByUsername(@PathVariable("username") String studentUsername) {
+        return studentService.fetchStudentByUsername(studentUsername);
+    }
+
     @PostMapping("")
     public Student saveStudent(@RequestBody Student student) {
         return studentService.saveStudent(student);
