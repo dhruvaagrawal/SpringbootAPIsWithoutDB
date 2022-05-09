@@ -13,3 +13,7 @@ Changes to this particular project will be made over time, to add error handling
 ## Steps to run the code:
 
 *mvn spring-boot:run*
+
+## API Documentation:
+
+## *https://documenter.getpostman.com/view/10087094/UyxennWT*
